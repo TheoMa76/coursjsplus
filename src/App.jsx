@@ -1,12 +1,15 @@
 import Table from "./components/Table";
+import Inputs from "./components/Inputs";
+
 import { PRODUCTS } from "./libs/Products";
+import Meteo from "./components/Meteo";
 
 function App() {
-  console.log(PRODUCTS)
   return (
     <>
     <div className="App">
-      <Table data={PRODUCTS}></Table>
+      {/* <Table data={PRODUCTS}></Table> */}
+      <Meteo></Meteo>
     </div>
     </>
   );
