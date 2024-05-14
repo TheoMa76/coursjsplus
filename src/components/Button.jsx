@@ -1,5 +1,5 @@
 export default function Button() {
   return (
-    <div>Button</div>
+    <div className="btn btn-primary"></div>
   )
 }
